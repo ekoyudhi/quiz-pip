@@ -207,6 +207,42 @@ const banks = [
     'correctIndex': 0,
     'correctResponse': 'Jawaban Anda Benar',
     'incorrectResponse': 'Jawaban Anda Salah'
+  },
+  {
+    'q': 'Apakah kewjiban penyalur kepada debitur UMi?',
+    'options': [
+      'Pemeriksaan',
+      'Pelayanan',
+      'Pendampingan',
+      'Penilaian'
+    ],
+    'correctIndex': 2,
+    'correctResponse': 'Jawaban Anda Benar',
+    'incorrectResponse': 'Jawaban Anda Salah'
+  },
+  {
+    'q': 'Bentuk pembiayaan PIP menggunakan akad konvensional dan ....?',
+    'options': [
+      'Sederhana',
+      'Ringan',
+      'Mudah',
+      'Syariah'
+    ],
+    'correctIndex': 3,
+    'correctResponse': 'Jawaban Anda Benar',
+    'incorrectResponse': 'Jawaban Anda Salah'
+  },
+  {
+    'q': 'Apakah debitur yang sudah menerima pembiayaan KUR (Kredit Usaha Rakyat) dapat juga menerimaa pembiayaan UMi?',
+    'options': [
+      'Dapat',
+      'Tidak dapat',
+      'Boleh',
+      'Bisa'
+    ],
+    'correctIndex': 1,
+    'correctResponse': 'Jawaban Anda Benar',
+    'incorrectResponse': 'Jawaban Anda Salah'
   }
 ]
 const question = getMultipleRandom(banks,3)
